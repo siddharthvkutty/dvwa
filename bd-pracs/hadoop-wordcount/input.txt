@@ -1,0 +1,2 @@
+Big data technologies like Hadoop and Spark are used to process large datasets efficiently.
+Hive and Pig are tools that make data analysis easier on top of Hadoop.
