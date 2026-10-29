@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Bank DApp</title>
+    </head>
+    <body>
+        <h1>Simple Bank</h1>
+        <button id="connectButton">Connect MetaMask</button>
+        <p>Account: <span id="account">Not connected</span></p>
+
+        <h2>Balance</h2>
+        <p><span id="balance">0</span> ETH</p>
+        <button id="refreshButton">Refresh Balance</button>
+        <hr />
+        <h2>Deposit</h2>
+        <input id="depositAmount" type="number" placeholder="ETH amount" />
+        <button id="depositButton">Deposit</button>
+        <hr />
+        <h2>Withdraw</h2>
+        <input id="withdrawAmount" type="number" placeholder="ETH amount" />
+        <button id="withdrawButton">Withdraw</button>
+        <hr />
+        <h2>Transfer</h2>
+        <input id="receiver" type="text" placeholder="Receiver address" />
+        <input id="transferAmount" type="number" placeholder="ETH amount" />
+        <button id="transferButton">Transfer</button>
+        <p id="status"></p>
+
+        <script src="https://cdn.jsdelivr.net/npm/web3@4.16.0/dist/web3.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
